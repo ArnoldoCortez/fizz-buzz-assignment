@@ -1,0 +1,30 @@
+.fizz-buzz {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid black;
+  font-weight: bold;
+}
+
+.fizz-buzz h1 {
+  margin: 0;
+}
+
+.fizz-buzz span {
+  font-size: 25px;
+}
+
+.fizz-buzz.red {
+  background: #FF5148;
+}
+
+.fizz-buzz.yellow {
+  background: #FFEA48;
+}
+
+.fizz-buzz.green {
+  background: #3EDA51;
+}
